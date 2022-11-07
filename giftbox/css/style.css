@@ -1,0 +1,14 @@
+#out{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    margin: 60px;
+}
+button{
+    width: 170px;
+    height: 55px;
+    background-color:  Orchid;
+    border-radius: 20%;
+    font-size: 17px;
+}

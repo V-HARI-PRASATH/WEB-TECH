@@ -1,0 +1,21 @@
+.above,.below{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip:hover{
+    transform:rotateY(180deg);
+}
+.below{
+    transform:rotateY(-180deg);
+}
+.flip{
+    width: 245px;
+    height: 342px;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+body{
+    background-color: blueviolet;
+}
